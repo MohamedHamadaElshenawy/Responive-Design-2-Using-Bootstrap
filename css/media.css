@@ -1,0 +1,99 @@
+/*********** Media Queries ***********/
+
+@media (max-width: 767px){ /* Media Of Mobile And Tablet */
+    .header .header-info{
+        padding-right: 0px;
+    }
+    .header .header-info p:first-of-type{
+        font-size: 25px;
+    }
+    .social-media .social-info,
+    .social-media .social-icons{
+        text-align: center;
+    }
+    .social-media .social-icons i{
+        line-height: 100px;
+        margin: 0px 3px;
+    }
+    .tabs .tab-names ul li{
+        width: 77%;
+    }
+    .tabs .tab-info p{
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    .tabs .tab-info button{
+        margin-top: 18px;
+    }
+    .sub-list .sub-img img{
+        margin: 0 auto 40px;
+    }
+    .standard-pic .sub-img {
+        margin: 0;
+    }
+    .features .feat{
+        margin-bottom: 30px;
+    }
+    .pricing-option .pricing-box{
+        margin: 0px 100px 30px;
+    }
+    .testimonials .customer{
+        width: 70%;
+        margin: 0 auto 50px;
+    }
+    .testimonials .customer > p{
+        margin: 0 0 30px 0;
+    }
+    .testimonials .customer .media{
+        width: 58%;
+        margin: auto;
+    }
+    .conatct-us textarea{
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){ /* Media Of Small Screen */
+    .social-media .social-info h3 {
+        margin: 0;
+        line-height: 114px;
+    }
+    .social-media .social-icons i{
+        margin-left: 1.4%;
+    }
+    .sub-list .sub-img img{
+        margin: 0 auto 40px;
+    }
+    .standard-pic .sub-img {
+        margin: 0;
+    }
+    .features .feat{
+        margin-bottom: 30px;
+    }
+    .pricing-option .pricing-box{
+        margin: 0px 100px 30px;
+    }
+    .testimonials .customer{
+        width: 70%;
+        margin: 0 auto 50px;
+    }
+    .testimonials .customer > p{
+        margin: 0 0 30px 0;
+    }
+    .testimonials .customer .media{
+        width: 50%;
+        padding: 0 34px;
+        margin: auto;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){ /* Media Of Medium Screen */
+    .social-media .social-icons i{
+        margin-left: 4.9%;
+        line-height: 133px;
+    }
+    .tabs .tab-pic img {
+        margin-top: 70px;
+    }
+}
+@media (min-width: 1200px){ /* Media Of Larg Screen */
+    
+}

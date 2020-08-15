@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Web Design Using Bootstrap - 2</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/fontawesome.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/media.css"/>
+        <link rel="stylesheet" href="css/hover-min.css"/>
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.min.js"></script>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- Start Of Navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand hvr-grow-rotate" href="#"><b>AX</b><span class="main-color">IT</span></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li data-value=".header" class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                        <li data-value=".social-media"><a href="#">About</a></li>
+                        <li data-value=".our-features"><a href="#">Features</a></li>
+                        <li data-value=".pricing-option"><a href="#">Pricing</a></li>
+                        <li data-value=".testimonials"><a href="#">Reviews</a></li>
+                        <li data-value=".conatct-us"><a href="#">Contact</a></li>
+                    </ul>
+                </div><!-- navbar-collapse -->
+            </div><!-- container -->
+        </nav>
+        <!-- End Of Navbar -->
+        
+        <!-- Start Of Header -->
+        <div class="header">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 col-xs-12">
+                            <div class="header-info">
+                                <h1 class="hvr-grow-rotate"><b>AX</b><span class="main-color">IT</span></h1>
+                                <p class="text-uppercase">
+                                    modern axure template for beautiful prototypes
+                                </p>
+                                <hr class="blocked">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                                <button class="blocked hvr-bounce-in">Download</button>
+                            </div>
+                        </div>
+                        <div class="col-md-5 hidden-sm hidden-xs">
+                            <div class="header-form">
+                                <form class="hvr-wobble-vertical">
+                                    <label class="text-center blocked">Try Your <span class="main-color">Free</span> Trial Today</label>
+                                    <input class="blocked main-color" type="text" placeholder="Name"/>
+                                    <input class="blocked main-color" type="email" placeholder="Email"/>
+                                    <input class="blocked main-color" type="password" placeholder="Password"/>
+                                    <button class="blocked">Get Started</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Header -->
+        
+        <!-- Start Of Social Media -->
+        <div class="social-media">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="social-info">
+                            <h3>Social Media</h3>
+                            <p class="hidden-sm">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="social-icons">
+                            <i class="fab fa-facebook-f fa-4x"></i>
+                            <i class="fab fa-twitter fa-4x"></i>
+                            <i class="fab fa-google-plus-g fa-4x"></i>
+                            <i class="fab fa-linkedin-in fa-4x"></i>
+                            <i class="fab fa-youtube fa-4x"></i>
+                            <i class="fab fa-yahoo fa-4x"></i>
+                            <i class="fab fa-snapchat-ghost fa-4x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Social Media -->
+        
+        <!-- Start Of Tabs Section -->
+        <div class="tabs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-xs-3">
+                        <div class="tab-names">
+                            <ul class="list-unstyled">
+                                <li class="active hvr-shrink" data-value="tab-1">Tab 1</li>
+                                <li class="hvr-shrink"        data-value="tab-2">Tab 2</li>
+                                <li class="hvr-shrink"        data-value="tab-3">Tab 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-9">
+                        <div class="tab-info">
+                            <div class="tab-1">
+                                <h3>Tab 1</h3>
+                                <p>
+                                    <b>Tab 1 </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                                <p>
+                                    <b>Tab 1 </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore.
+                                </p>
+                                <button class="hvr-bounce-in">Download</button>
+                            </div>
+                            <div class="tab-2">
+                                <h3>Tab 2</h3>
+                                <p>
+                                    <b>Tab 2 </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                                <p>
+                                    <b>Tab 2 </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore.
+                                </p>
+                                <button class="hvr-bounce-in">Download</button>
+                            </div>
+                            <div class="tab-3">
+                                <h3>Tab 3</h3>
+                                <p>
+                                    <b>Tab 3 </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                                <p>
+                                    <b>Tab 3 </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore.
+                                </p>
+                                <button class="hvr-bounce-in">Download</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 hidden-sm hidden-xs">
+                        <div class="tab-pic hvr-wobble-skew">
+                            <img src="images/tabs.PNG" alt="Tabs Picture"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Tabs Section -->
+        
+        <!-- Start Of Sub List -->
+        <div class="sub-list">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <div class="sub-img">
+                            <img class="img-responsive hvr-wobble-vertical" src="images/sub-list.PNG" alt="sub list image"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6  col-xs-12">
+                        <div class="sub-info hvr-wobble-horizontal">
+                            <h3><b>Sub List Section</b></h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat,
+                                 ex ea commodo consequat.
+                            </p>
+                            <div class="media">
+                                <div class="media-left pull-left">
+                                    <i class="fas fa-cloud-upload-alt fa-lg main-color media-object"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Title</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left pull-left">
+                                    <i class="fas fa-cloud-download-alt fa-lg main-color media-object"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Title</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat,
+                                        ex ea commodo consequat.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Sub List -->
+        
+        <!-- Start Of Standard Picture -->
+        <div class="standard-pic sub-list">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6  col-xs-12">
+                        <div class="sub-info hvr-wobble-horizontal">
+                            <h3><b>Standard Picture Section</b></h3>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat,
+                                ex ea commodo consequat,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <div class="sub-img">
+                            <img class="img-responsive hvr-wobble-vertical" src="images/standard-picture.PNG" alt="standard picture section image"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Standard Picture -->
+        
+        <!-- Start Of Features -->
+        <div class="features text-center our-features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="features-info hvr-wobble-skew">
+                            <h2>Why This Is Awesome</h2>
+                            <hr class="main-color">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="feat hvr-float-shadow">
+                            <i class="far fa-lightbulb fa-2x main-color"></i>
+                            <h3>Thoughtful Design</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                quis nostrud exercitation ex ea commodo consequat,
+                                ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="feat hvr-float-shadow">
+                            <i class="far fa-keyboard fa-2x main-color"></i>
+                            <h3>Well Crafted</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                quis nostrud exercitation ex ea commodo consequat,
+                                ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="feat hvr-float-shadow">
+                            <i class="fas fa-bolt fa-2x main-color"></i>
+                            <h3>Easy To Customize</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                quis nostrud exercitation ex ea commodo consequat,
+                                ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Features -->
+        
+        <!-- Start Of Pricing Option -->
+        <div class="pricing-option features text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="features-info hvr-wobble-skew">
+                            <h2>Pricing Option</h2>
+                            <hr class="main-color">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="pricing-box">
+                            <h3>Basic</h3>
+                            <div class="price">
+                                $<span>0</span>
+                                <p>Free For Life</p>
+                            </div>
+                            <div class="description">
+                                Our Basic Plan
+                            </div>
+                            <ul class="list-unstyled blocked">
+                                <li class="blocked">1 GB Of Space</li>
+                                <li class="blocked">10 GB Of Bandwidth</li>
+                                <li class="blocked">3 Websites</li>
+                                <li class="blocked">Basic Customization</li>
+                                <li class="blocked">Wordpress Integration</li>
+                                <li class="blocked">Email Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="pricing-box">
+                            <h3>Professional</h3>
+                            <div class="price">
+                                $<span>19</span>
+                                <p>Monthly Payment</p>
+                            </div>
+                            <div class="description">
+                                Our Most Popular
+                            </div>
+                            <ul class="list-unstyled blocked">
+                                <li class="blocked">5 GB Of Space</li>
+                                <li class="blocked">50 GB Of Bandwidth</li>
+                                <li class="blocked">12 Websites</li>
+                                <li class="blocked">Advanced Customization</li>
+                                <li class="blocked">Wordpress Integration</li>
+                                <li class="blocked">Email Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="pricing-box">
+                            <h3>Enterprise</h3>
+                            <div class="price">
+                                $<span>70</span>
+                                <p>Monthly Payment</p>
+                            </div>
+                            <div class="description">
+                                Our Enterprise Plan
+                            </div>
+                            <ul class="list-unstyled blocked">
+                                <li class="blocked">Ultimate Space</li>
+                                <li class="blocked">Ultimate Bandwidth</li>
+                                <li class="blocked">100 Websites</li>
+                                <li class="blocked">Advanced Customization</li>
+                                <li class="blocked">Wordpress Integration</li>
+                                <li class="blocked">42/7 Customer Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Pricing Option -->
+        
+        <!-- Start Of Testimonials -->
+        <div class="testimonials features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <div class="features-info hvr-wobble-skew">
+                            <h2>What Our Customers Are Saying</h2>
+                            <hr class="main-color">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 hvr-grow">
+                        <div class="customer">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                quis nostrud exercitation ex ea commodo consequat,
+                                ex ea commodo consequat.
+                            </p>
+                            <div class="media">
+                                <div class="media-left pull-left">
+                                    <a href="#">
+                                        <img class="media-object img-responsive img-circle" src="images/customer.jpg" alt="Customer Picture">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Helena</h3>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 hvr-grow">
+                        <div class="customer">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                quis nostrud exercitation ex ea commodo consequat,
+                                ex ea commodo consequat.
+                            </p>
+                            <div class="media">
+                                <div class="media-left pull-left">
+                                    <a href="#">
+                                        <img class="media-object img-responsive img-circle" src="images/customer.jpg" alt="Customer Picture">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Noha</h3>
+                                    <p>Photographer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 hvr-grow">
+                        <div class="customer">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                quis nostrud exercitation ex ea commodo consequat,
+                                ex ea commodo consequat.
+                            </p>
+                            <div class="media">
+                                <div class="media-left pull-left">
+                                    <a href="#">
+                                        <img class="media-object img-responsive img-circle" src="images/customer.jpg" alt="Customer Picture">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Anna</h3>
+                                    <p>Freelancer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Testimonials -->
+        
+        <!-- Start Of Designs -->
+        <div class="designs">
+            <div class="overlay features text-center">
+                <div class="container">
+                    <div class="features-info hvr-wobble-skew">
+                        <h2>Stylish Axure Design</h2>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit.</p>
+                    </div>
+                    <div>
+                        <button class="hvr-bounce-in blocked">Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Designs -->
+        
+        <!-- Start Of Contact Us -->
+        <div class="conatct-us features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <div class="features-info hvr-wobble-skew">
+                            <h2>Contact Us</h2>
+                            <hr class="main-color">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="contact-us-form">
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-12">
+                                        <div>
+                                            <input class="blocked" type="text" placeholder="Name"/>
+                                            <input class="blocked" type="email" placeholder="Email"/>
+                                            <input class="blocked" type="text" placeholder="Subject"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-xs-12">
+                                        <div>
+                                            <textarea cols="70" rows="8" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <div>
+                                            <button class="blocked">Send Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Contact Us -->
+        
+        <!-- Start Of Footer -->
+        <div class="footer text-center">
+            <div class="container">
+                <i class="fab fa-facebook-f fa-2x"></i>
+                <i class="fab fa-twitter fa-2x"></i>
+                <i class="fab fa-google-plus-g fa-2x"></i>
+                <i class="fab fa-linkedin-in fa-2x"></i>
+                <i class="fab fa-youtube fa-2x"></i>
+                <i class="fab fa-yahoo fa-2x"></i>
+                <i class="fab fa-snapchat-ghost fa-2x"></i>
+                <p>
+                    Copyrights &COPY; Reserved 2020, Designed By Mohammed Hamada Elshenawy
+                </p>
+            </div>
+        </div>
+        <!-- End Of Footer -->
+        
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
