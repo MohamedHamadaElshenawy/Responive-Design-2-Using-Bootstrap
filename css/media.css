@@ -19,11 +19,14 @@
         margin: 0px 3px;
     }
     .tabs .tab-names ul li{
-        width: 90%;
+        width: 100%;
     }
     .tabs .tab-info p{
         line-height: 1.4;
         font-size: 14px;
+    }
+    .tabs .tab-info p:first-of-type {
+        margin: 20px 0 15px;
     }
     .tabs .tab-info button{
         margin-top: 18px;
@@ -38,7 +41,7 @@
         margin-bottom: 30px;
     }
     .pricing-option .pricing-box{
-        margin: 0px 75px 30px;
+        margin: 0px 55px 30px;
     }
     .testimonials .customer{
         width: 90%;
